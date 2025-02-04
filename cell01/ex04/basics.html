@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+    <style>
+        body {
+            background-color: pink; /* พื้นหลังสีชมพู */
+        }
+        h1 {
+            color: white; /* สีตัวอักษรสีขาว */
+            text-align: center; /* จัดกึ่งกลาง */
+            font-size: 2em; /* ขนาดใหญ่ขึ้น */
+        }
+        .container {
+            display: flex; /* จัดเรียงรูปภาพด้านข้าง */
+            justify-content: center; /* จัดกึ่งกลาง */
+            gap: 20px; /* ระยะห่างระหว่างรูปภาพ */
+        }
+        .image-link {
+            display: flex;
+            flex-direction: column; /* จัดเรียงองค์ประกอบแนวตั้ง */
+            align-items: center; /* จัดกึ่งกลาง */
+        }
+        img {
+            max-width: 300px; /* ขนาดรูปภาพสูงสุด */
+            height: 350px;
+        }
+        hr {
+            margin-top: 20px; /* ระยะห่างจากรูปภาพ */
+        }
+        .footer {
+            text-align: right; /* จัดชิดขวา */
+            font-style: italic; /* ตัวเอียง */
+            font-family: monospace; /* แบบอักษร monospace */
+            margin-top: 20px; /* ระยะห่างจากเส้น */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Bronny's shop </h1>
+
+    <div class="container">
+        <div class="image-link">
+            <img src="https://i.ebayimg.com/images/g/jAgAAOSwO0Vnf8rY/s-l1600.webp" alt="Online Shop 1">
+            <a href="https://www.ebay.com/itm/126874439503?norover=1&mkevt=1&mkrid=711-167022-189232-7&mkcid=2&itemid=126874439503&targetid=&device=c&mktype=pla&googleloc=9212502&poi=&campaignid=21272459403&mkgroupid=&rlsatarget=&abcId=&merchantid=5085165595&gad_source=1&gclid=Cj0KCQiAkoe9BhDYARIsAH85cDOCpOKIi0YqrHStwRd4a8uHda71oFSP_WGBJgCCyTmgjXmofKhTPt8aAsu7EALw_wcB">ไปที่ร้านค้า 1</a>
+        </div>
+        <div class="image-link">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSLirtdOGP2Yg-Pox90YAiZ8dowZ-e0nCnY4pEGWBzVal6PUQMLoo4vYoIrvm2SZuyISaiPZC64exMxVu0YTwAH60eKrsLnjo7hfUUjLCoWJOS3Oya-5zJ3edcB&usqp=CAE" alt="Online Shop 2">
+            <a href="https://www.lazada.co.th/products/johnsons-baby-oil-i4150663507-s20829981088.html?from_gmc=1&fl_tag=1">ไปที่ร้านค้า 2</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+        &copy; wil 2024
+    </div>
+
+</body>
+</html>
