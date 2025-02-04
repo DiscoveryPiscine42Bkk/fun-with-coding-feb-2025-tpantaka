@@ -1,0 +1,4 @@
+/* CSS styling */
+body {
+    transition: background-color 0.5s ease; /* ทำให้การเปลี่ยนสีดูช้า */
+  }
