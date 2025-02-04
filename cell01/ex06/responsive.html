@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Table</title>
+    <style>
+        body, html {
+            height: 100%; /* ทำให้ body และ html สูงเต็มหน้าจอ */
+            margin: 0; /* ลบ margin เริ่มต้น */
+        }
+        table {
+            width: 100%; /* ตารางกว้างเต็มหน้าจอ */
+            height: 100%; /* ตารางสูงเต็มหน้าจอ */
+            border-collapse: collapse;
+            table-layout: fixed; /* กำหนดให้เซลล์มีความกว้างเท่ากัน */
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 20px;
+            text-align: left;
+            word-wrap: break-word; /* อนุญาตให้ข้อความขึ้นบรรทัดใหม่ */
+            overflow: hidden; /* ซ่อนข้อความที่เกินออกมา */
+        }
+        /* กำหนดสีพื้นหลังให้กับแต่ละเซลล์ */
+        #cell1 {
+            background-color: #bae6ad; /* สีฟ้าอ่อน */
+        }
+        #cell2 {
+            background-color: #e690ee; /* สีเขียวอ่อน */
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td id="cell1">Tayakorn</td>
+            <td id="cell2">Pantakarn</td>
+        </tr>
+    </table>
+
+</body>
+</html>
