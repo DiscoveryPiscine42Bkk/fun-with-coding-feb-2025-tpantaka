@@ -4,8 +4,8 @@
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
-    background-color: #f0f0f0; /* สีพื้นหลัง */
-    font-family: sans-serif; /* เลือก font ที่ต้องการ */
+    background-color: #f0f0f0; 
+    font-family: sans-serif; 
 }
 
 .header {
@@ -40,7 +40,7 @@
 }
 
 .contact-button button {
-    background-color: #4CAF50; /* สีปุ่ม */
+    background-color: #4CAF50; 
     color: white;
     padding: 10px 20px;
     border: none;
