@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Page Resume</title>
+    <link rel="stylesheet" href="Arush.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Tayakorn Pantakarn</h1>
+        <p>Electrical Engineering | 48 | KMTIL</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My name is Tayakorn Pantakarn, but you can call me Aom. <br>
+            I am currently a final-year student at KMTIL, majoring in Electrical Engineering. 
+            </p>
+            <p>
+            In my free time, I enjoy exercising, including weight training and playing sports.
+            </p>
+            <img src="https://scontent.fbkk5-5.fna.fbcdn.net/v/t39.30808-1/270254429_1365349310553159_6544014926379146151_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeGGKmQFgyaoYTpdoEyaeorGkWW73Fdtk8KRZbvcV22TwgBViDkb8mCYKsF9H0XtwJvBcDvLdDqTPz_lHCUXEI2n&_nc_ohc=8mSGseB-0d4Q7kNvgG144OZ&_nc_oc=Adhhb_jh4GnowIAevwO8vGYGegmQbqXbyd3weWqXvm7Rh1Qj999yg4fAugQT1lLG62w&_nc_zt=24&_nc_ht=scontent.fbkk5-5.fna&_nc_gid=AnU3DAPcs0weaCxUHWOGKNq&oh=00_AYAuBHago9oxlTc5A6a3ytZYHafYW4jemmo57LZ2UTy0QQ&oe=67A81CA2" alt="Your Photo" class="profile-pic">
+            <p>Aom 21 years old <br> Bangkok, Thailand </p>
+        </section>
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <p>Intern-Support , PEA Thailand. </p>
+            <p>Intern-Tecnical , Siemens (Thailand) Limited.</p>
+            <p>Event Staff , Electrical Engineering , KMITL.</p>
+            <p>
+            <img src="https://image.bangkokbiznews.com/image/kt/media/image/advertorial/2020/06/25/2286/750x422_2286_1593098671.png"
+            style="height: 48px; width : 350 px ;object-fit: contain;" alt="Oh No">
+            <img src="https://www.kovair.com/wp-content/uploads/2021/04/sienamce-logo.png"
+            style="height: 55px; width : 350 px ;object-fit: contain;" alt="Oh No">
+            <img src="https://curriculum.kmitl.ac.th/wp-content/uploads/2021/07/%E0%B9%84%E0%B8%9F%E0%B8%9F%E0%B9%89%E0%B8%B2-1.png"
+            style="height: 55px; width : 350 px ;object-fit: contain;" alt="Oh No">
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+        <div class="skill">
+            <p>MATLAB</p>
+            <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+        </div>
+        <div class="skill">
+            <p>AutoCAD</p>
+            <div class="progress-bar"><div class="progress" style="width: 50%;"></div></div>
+        </div>
+        <div class="skill">
+            <p>PLC (Ladder Diagram)</p>
+            <div class="progress-bar"><div class="progress" style="width: 50%;"></div></div>
+        </div>
+        <div class="skill">
+            <p>Coding</p>
+            <div class="progress-bar"><div class="progress" style="width: 0.3%;"></div></div>
+        </div>
+        </section>
+
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Address : KMTIL, Ladkrabang, Bangkok 10520</p>
+            <p>Email: tayakorn.oom@gmail.com</p>
+            <p>Phone: 097-290-6533 </p>
+        </section>
+    </div>
+
+    <footer>
+        <h2>Tayakorn Pantakarn</h2>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/tayakorn.pantakarn" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/640px-Facebook_Logo_%282019%29.png" alt="Facebook"></a>
+            
+            <a href="https://www.instagram.com/aom_kayat/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" alt="IG"></a>
+            
+            <a href="https://www.facebook.com/tayakorn.pantakarn" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png" alt="LinkedIn"></a>
+        </div>
+        <p>&copy; 2025 tpantaka</p>
+    </footer>
+
+    <script>
+    $(document).ready(function(){
+        $('nav ul li a').click(function(e){
+            e.preventDefault();
+            var target = $(this).attr('href');
+            $('html, body').animate({
+                scrollTop: $(target).offset().top
+            }, 800);
+        });
+
+       /* $(window).scroll(function() {
+            if ($(window).scrollTop() + $(window).height() >= $(document).height()) {
+                $('#footer').fadeIn();
+            } else {
+                $('#footer').fadeOut();
+            }
+        });
+
+        $('#footer').hide();*/
+    });  
+    </script>
+</body>
+</html>
