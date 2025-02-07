@@ -116,6 +116,12 @@ footer {
     
 }
 
+.pepic {
+    max-width: 420px;
+    height: 300px;
+    border-radius: 10%;
+}
+
 .social-icons {
     margin-bottom: 20px;
 }
