@@ -11,7 +11,7 @@ body {
 
 header {
     background: #e9e8e6;
-    background-image: url("https://cdn.discordapp.com/attachments/893873668365635676/1337023670631137342/image.jpg?ex=67a5efd3&is=67a49e53&hm=b784c7c5b9666778f446644422a015024c1aad1178ded15f447307e36a3fe643&");
+    background-image: url("https://cdn.discordapp.com/attachments/901478420272267324/1337463601807622217/20250207_234210.jpg?ex=67a7898b&is=67a6380b&hm=134b879a413a072f97cf0b14dd34e0be28f996aa93d6ca6bb83eb1c8d0192ceb&");
     color: #ffffff;
     margin-top: 0;
     min-height: 220px;
@@ -29,7 +29,7 @@ nav {
     background: #444;
     background: rgba(0, 0, 0, 0.5); /* สีดำโปร่งแสง */
     backdrop-filter: blur(5px); /* ทำให้เบลอเล็กน้อย */
-    height: 6%;
+    height: auto;
     top: 0%;
     z-index: 1000;
     
@@ -130,4 +130,21 @@ footer {
     width: 30px;
     height: 30px;
     margin: 0 5px;
+}
+
+.home-button {
+    display: inline-block; /* ทำให้ปุ่มมีขนาดที่กำหนดได้ */
+    padding: 10px 20px; /* ระยะห่างภายในปุ่ม */
+    border: 2px solid #333; /* กรอบสี่เหลี่ยม */
+    border-radius: 5px; /* มุมโค้งของกรอบ (ถ้าต้องการ) */
+    background-color: #f0f0f0; /* สีพื้นหลัง */
+    color: #333; /* สีข้อความ */
+    text-decoration: none; /* ลบขีดเส้นใต้ของลิงก์ */
+    font-weight: bold; /* ตัวหนา */
+    transition: background-color 0.3s, color 0.3s; /* เพิ่มเอฟเฟกต์เมื่อ hover */
+}
+
+.home-button:hover {
+    background-color: #333; /* สีพื้นหลังเมื่อ hover */
+    color: #fff; /* สีข้อความเมื่อ hover */
 }
