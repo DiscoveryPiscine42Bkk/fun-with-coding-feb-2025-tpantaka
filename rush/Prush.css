@@ -1,0 +1,127 @@
+body {
+    font-family: Georgia, serif;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #e9e8e6;
+    background-image: url("https://cdn.discordapp.com/attachments/893873668365635676/1337023670631137342/image.jpg?ex=67a5efd3&is=67a49e53&hm=b784c7c5b9666778f446644422a015024c1aad1178ded15f447307e36a3fe643&");
+    color: #ffffff;
+    margin-top: 0;
+    min-height: 220px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding: 300px 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: #444;
+    background: rgba(0, 0, 0, 0.5); /* สีดำโปร่งแสง */
+    backdrop-filter: blur(5px); /* ทำให้เบลอเล็กน้อย */
+    height: 6%;
+    top: 0%;
+    z-index: 1000;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 18px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+nav ul li {
+    display: inline;
+    padding: 15px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.container {
+    margin-top: 60px;
+}
+
+.about {
+    padding: 80px 20px;
+    background: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    width: 80%;
+    text-align: left;
+}
+
+section {
+    padding: 80px 20px;
+    background: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    width: 80%;
+}
+
+.profile-pic {
+    width: 250px;
+    border-radius: 10%;
+}
+
+footer {
+    background: #2b2828;
+    color: white;
+    padding: 5px;
+    height: 200px;
+    bottom: 0;
+    width: 99.5%;
+    text-align: center;
+    
+}
+
+.skill {
+    margin: 10px 0;
+}
+
+.progress-bar {
+    
+    width: 74%;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: auto;
+    /* margin-left: 100px; */
+}
+
+.progress {
+    height: 10px;
+    background-color: #0563bb;
+    text-align: center;
+    
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
