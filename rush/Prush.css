@@ -106,6 +106,7 @@ footer {
     border-radius: 5px;
     overflow: hidden;
     margin: auto;
+    
     /* margin-left: 100px; */
 }
 
@@ -114,6 +115,22 @@ footer {
     background-color: #0563bb;
     text-align: center;
     
+}
+
+.progress-bar #MATLAB {
+    width: 60%;
+}
+
+#AutoCAD {
+    width: 80%;
+}
+
+#PLC {
+    width: 90%;
+}
+
+#Coding {
+    width: 10%;
 }
 
 .pepic {
@@ -161,3 +178,5 @@ footer {
         width: 90%;
     }
 }
+
+
