@@ -81,7 +81,7 @@ a {
     gap: 20px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .image-container img {
         max-width: 200px;
         height: 250px;
